@@ -50,8 +50,8 @@ public class EmailValidatorService {
 	// just for test
 	public static void main(String[] args) {
 		EmailValidatorService evs = new EmailValidatorService();
-		String[] domains = new String[] {"out.com", "outlook.com", "test.com", "21.vc", "qq.com", "yeah.net", "126.com", "163.com", "google.com", "gtdollar.com", "buokdsf.co", "gmail.com"};
-		String[] names = new String[] {"saiser", "9339644", "ma", "remote", "mama", "yl", "123", "fayc", "shenyuliang.saiser", "shangyu", "hel.o@"};
+		String[] domains = new String[] {"out.com", "outlook.com", "test.com", "qq.com", "yeah.net", "126.com", "163.com", "google.com", "buokdsf.co", "gmail.com"};
+		String[] names = new String[] {"saiser", "9339644", "ma", "remote", "mama", "yl", "123", "hel.o@"};
 		for (String domain : domains) {
 			for (String name : names) {
 				String email = name + "@" + domain;
