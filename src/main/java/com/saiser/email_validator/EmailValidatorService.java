@@ -27,7 +27,7 @@ public class EmailValidatorService {
 	
 	private static final int DEFAULT_SMTP_PORT = 25;
 	
-	private static final String DEFAULT_SENDER_EMAIL = "noreplay@gtdollar.com";
+	private static final String DEFAULT_SENDER_EMAIL = "noreplay@name.com";
 	
 	private static final int DEFAULT_SOCKET_TIMEOUT = 3000;
 	
